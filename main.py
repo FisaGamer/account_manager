@@ -1,5 +1,4 @@
 import useraccount as ua
-import custommenu as cm
 import getpass4 as g
 import bruteforce as b
 
