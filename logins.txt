@@ -1,5 +1,5 @@
-Fisa , b'\xfc\x87f\xfa\xc2\x91\xfe\x97\xfaQ\xc7\xc3\xa6\x16\xb9k' , franklin.tranie@gmail.com
-Fisa3 , b'\xfc\x87f\xfa\xc2\x91\xfe\x97\xfaQ\xc7\xc3\xa6\x16\xb9k' , franklin.tranie@gmail.com
+Fisa , dummymd5hash , dummyemail@mail.com
+Fisa3 , dummymd5hash , dummyemail@mail.com
 
 
 
