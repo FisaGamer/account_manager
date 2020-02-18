@@ -1,0 +1,67 @@
+[[package]]
+category = "main"
+description = "this is a better getpass. Made by Caua_SCP."
+name = "caugetch"
+optional = false
+python-versions = ">=3.6"
+version = "0.0.1"
+
+[[package]]
+category = "main"
+description = "A cross platform clipboard operation library of Python. Works for Windows, Mac and Linux."
+name = "clipboard"
+optional = false
+python-versions = "*"
+version = "0.0.4"
+
+[package.dependencies]
+pyperclip = ">=1.3"
+
+[[package]]
+category = "main"
+description = "Cross-platform colored terminal text."
+name = "colorama"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "0.4.3"
+
+[[package]]
+category = "main"
+description = "A simple console menu system using curses"
+name = "curses-menu"
+optional = false
+python-versions = "*"
+version = "0.5.0"
+
+[[package]]
+category = "main"
+description = "this is a better getpass. Made by Caua_SCP."
+name = "getpass4"
+optional = false
+python-versions = ">=3.6"
+version = "0.0.8"
+
+[package.dependencies]
+caugetch = "*"
+clipboard = "*"
+colorama = "*"
+
+[[package]]
+category = "main"
+description = "A cross-platform clipboard module for Python. (Only handles plain text for now.)"
+name = "pyperclip"
+optional = false
+python-versions = "*"
+version = "1.7.0"
+
+[metadata]
+content-hash = "15e7dd6f8eb1e14052f15c288ab3ceead04b69a9850f348af42f84de84c44c29"
+python-versions = "^3.7"
+
+[metadata.hashes]
+caugetch = ["6f6ddb3b928fa272071b02aabb3342941cd99992f27413ba8c189eb4dc3e33b0", "ee743dcbb513409cd24cfc42435418073683ba2f4bb7ee9f8440088a47d59277"]
+clipboard = ["a72a78e9c9bf68da1c3f29ee022417d13ec9e3824b511559fd2b702b1dd5b817"]
+colorama = ["7d73d2a99753107a36ac6b455ee49046802e59d9d076ef8e47b61499fa29afff", "e96da0d330793e2cb9485e9ddfd918d456036c7149416295932478192f4436a1"]
+curses-menu = ["29c45e2f16283833e2940fac0fd64e948f2ff603d3e11f510c5bd2b946cd8981"]
+getpass4 = ["86b88c9120a6ff9ce16c309c9962af22a419d3b2672c56085340a172bf5391b1", "a3095624604e7f526a4b73aa6173059cb4115a0a381427213bef14a0a4aac683"]
+pyperclip = ["979325468ccf682104d5dcaf753f869868100631301d3e72f47babdea5700d1c"]
