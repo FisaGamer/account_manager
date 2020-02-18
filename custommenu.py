@@ -5,7 +5,7 @@ from cursesmenu.items import *
 
 def launchmenu():
   menu = CursesMenu("Member manager", "Choose an option")
-  add_user = FunctionItem("Add a user", input, ["What's the new account username?\n"])
+  add_user = FunctionItem("Add a user", ua.add_user())
   menu.append_item(add_user)
   menu.show()
 
